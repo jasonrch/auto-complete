@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_add_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Word" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add Word" />
+
+    <EditText
+        android:id="@+id/et_search_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search words" />
+
+    <TextView
+        android:id="@+id/tv_found_words"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:textSize="23sp"
+        android:textAlignment="viewStart" />
+
+</LinearLayout>
